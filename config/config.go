@@ -5,14 +5,6 @@ import (
 	"io/ioutil"
 )
 
-// const (
-// 	dbUser     = "cspApp"
-// 	dbPassword = "sid@CSP@1"
-// 	dbHost     = "mgt-appsvr01.sidmach.csp"
-// 	sqlPort    = "3306"
-// 	dbName     = "csp"
-// )
-
 const (
 	dbUser     = "dev"
 	dbPassword = "dev"
