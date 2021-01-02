@@ -1,0 +1,19 @@
+{
+    "db_name":"csp",
+    "db_port":3306,
+    "db_username":"dev",
+    "db_password":"dev",
+    "db_hostname":"localhost",
+    "ad_server_name":"",
+    "ad_server_port": 389,
+    "ad_basedn": "dc=sidmach,dc=com",
+    "ad_security":0,
+    "app_server_port": 8000,
+    "api_client_ip":["::1","127.0.0.1"],
+    "api_client_ip_subnet":["192.168.112.180/255.255.252.0"],
+    "issuer_cn":["sidmach-JANET-CA","Olasoji O. Ajayi"],
+    "client_ca_pool":["ssl\\server.CA.crt","ssl\\janet-cacert.cer"],
+    "ssl_cert": "ssl\\OPS-WS-01_cspusage.pem",
+    "ssl_key": "ssl\\OPS-WS-01_cspusage_unencrypted.key",
+    "logFile" : "log.txt"
+}
